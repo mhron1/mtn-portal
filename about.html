@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metonimaifen — О проекте</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">M<span>T</span>N</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="artists.html" class="nav-link">Артисты</a>
+                <a href="production.html" class="nav-link">Саунд-дизайн</a>
+                <a href="about.html" class="nav-link active">О проекте</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <h1 class="page-title">О проекте MTsouND</h1>
+        <p class="page-subtitle">Учебный веб-портал об андеграундной музыке, эстетике звучания и основах саунд-дизайна.</p>
+
+        <div class="about-layout">
+            <!-- Левая колонка: описание проекта -->
+            <div class="card about-info">
+                <h2>Зачем нужен этот сайт</h2>
+                <p>MTsouND задуман как компактный медиа-архив для тех, кто ценит живую энергию, плотный звук и честный подход к созданию музыки без глянцевых шаблонов.</p>
+                <p>Внутри собраны подборки треков с плеером, краткий разбор базовой обработки звука и шпаргалка по ключевым эффектам.</p>
+
+                <h3 style="margin-top: 20px;">Технический стек</h3>
+                <ul class="tech-list">
+                    <li><strong>HTML5</strong> — семантическая разметка страниц, таблицы и формы</li>
+                    <li><strong>CSS3</strong> — Flexbox, Grid, оформление тёмной темы и адаптив</li>
+                    <li><strong>VS Code + Live Server</strong> — среда разработки и локальный сервер</li>
+                </ul>
+            </div>
+
+            <!-- Правая колонка: форма обратной связи -->
+            <div class="card form-box">
+                <h2>Предложить трек или тему</h2>
+                <p style="margin-bottom: 20px;">Знаешь крутой релиз или хочешь увидеть разбор конкретного эффекта? Напиши сюда.</p>
+
+                <form class="feedback-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Имя или ник</label>
+                        <input type="text" id="name" name="name" placeholder="Например, Кирилл" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="topic">Раздел</label>
+                        <select id="topic" name="topic">
+                            <option value="artist">Новый артист / релиз</option>
+                            <option value="sound">Разбор в саунд-дизайне</option>
+                            <option value="idea">Идея для портала</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Сообщение / ссылка на трек</label>
+                        <textarea id="message" name="message" rows="4" placeholder="Напиши пару слов или оставь название трека..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn form-btn">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 metonimaifen. Учебный веб-проект.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

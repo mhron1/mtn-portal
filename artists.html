@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>metonimaifen — Артисты и релизы</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">M<span>T</span>N</a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Главная</a>
+                <a href="artists.html" class="nav-link active">Артисты</a>
+                <a href="production.html" class="nav-link">Саунд-дизайн</a>
+                <a href="about.html" class="nav-link">О проекте</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-content">
+        <h1 class="page-title">Артисты и релизы</h1>
+        <p class="page-subtitle">Подборка треков и проектов с плотным звучанием, настроением и характером.</p>
+
+        <div class="cards-grid">
+            <!-- Карточка 1 -->
+            <article class="card artist-card">
+                <img src="img/kkk.jpg" alt="Обложка релиза 1" class="card-img">
+                <span class="badge">Пост-панк / Альтернатива</span>
+                <h3>4 позиции бруно</h3>
+                <p>Холодный синтезатор, плотный бас и отстранённый вокал. Отлично заходит под ночные прогулки.</p>
+                <!-- Встроенный плеер: закинь свой mp3 в папку audio/ и пропиши путь в src -->
+                <audio controls class="audio-player">
+                    <source src="audio/4пб комм.mp3" type="audio/mpeg">
+                    Ваш браузер не поддерживает аудиоплеер.
+                </audio>
+            </article>
+
+            <!-- Карточка 2 -->
+            <article class="card artist-card">
+                <img src="https://placehold.co/600x400/311042/ffffff?text=Cover+02" alt="Обложка релиза 2" class="card-img">
+                <span class="badge">Фонк / Электроника</span>
+                <h3>Артист / Проект 02</h3>
+                <p>Грязный дисторшн, качающий ритм и агрессивная динамика без лишних украшений.</p>
+                <audio controls class="audio-player">
+                    <source src="audio/track2.mp3" type="audio/mpeg">
+                    Ваш браузер не поддерживает аудиоплеер.
+                </audio>
+            </article>
+
+            <!-- Карточка 3 -->
+            <article class="card artist-card">
+                <img src="https://placehold.co/600x400/18181b/a78bfa?text=Cover+03" alt="Обложка релиза 3" class="card-img">
+                <span class="badge">Индастриал / Эсперимент</span>
+                <h3>Артист / Проект 03</h3>
+                <p>Эксперименты с фактурой звука, резкими перепадами громкости и плотным миксом.</p>
+                <audio controls class="audio-player">
+                    <source src="audio/track3.mp3" type="audio/mpeg">
+                    Ваш браузер не поддерживает аудиоплеер.
+                </audio>
+            </article>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 metonimaifen. Учебный веб-проект.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
